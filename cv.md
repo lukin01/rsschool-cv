@@ -30,3 +30,14 @@ console.log(result);
 ## Experience
 ---
 * [CV Project in RS School](https://lukin01.github.io/rsschool-cv/cv)
+
+## Education
+---
+* **University:** Samara State Technical University
+* **Courses:** 
+    * [Code Basic HTML](https://ru.code-basics.com/languages/html)
+    * [Code Basic CSS](https://ru.code-basics.com/languages/css)
+
+## English
+---
+**A2** (Independent travel practice)
