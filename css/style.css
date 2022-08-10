@@ -14,4 +14,22 @@
 
 body {
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header {
+    border: 1 solid red;
+    display: block; 
+    background-color: rgb(168, 90, 90);
+}
+main {
+    border: 1 solid red;
+}
+footer {
+    border: 1 solid red;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
