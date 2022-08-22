@@ -59,12 +59,14 @@ footer {
     list-style: none;
 }
 .nav_link {
-    padding: 0 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 12px;
     line-height: 50px;
     transition: .4s;
     color: #ffffff;
     text-decoration: none;  
-    transition: color 0.5s;
 }
 .nav_link:hover{
     background-color: rgba(25, 37, 27, 0.555);
@@ -130,6 +132,8 @@ footer {
 .section {
     width: 50%;
     border-bottom: 1px solid #672f2f;
+    padding: 10px;
+    padding-bottom: 35px;
 }
 .section_subtitle {
     margin-top: 20px;
@@ -148,6 +152,7 @@ footer {
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+    padding-left: 30px;
 }
 .section_item a {
     text-decoration: none;
@@ -158,4 +163,50 @@ footer {
     color: #1f0e0e;
 }
 
-
+.section_item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-image: url(/assets/svg/skills_icon.svg);
+    background-size: 14px 14px;
+}
+.section_item span {
+    color: #829985;
+}
+.pre {
+    padding: 0;
+    margin: 0;
+}
+.section_education {
+    border-bottom: 0;
+}
+.section_english {
+    border-bottom: 0;
+}
+/* Footer */
+.footer {
+    background-color: #829985;
+    padding: 20px;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(/assets/svg/logo_rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
