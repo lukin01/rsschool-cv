@@ -28,7 +28,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color:#4d2323;
+    color:#1f0e0e;
     margin: 0;
     padding: 0;
     min-width: 320px;
@@ -134,6 +134,7 @@ footer {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 .section_item {
     position: relative;
@@ -145,9 +146,10 @@ footer {
 .section_item a {
     text-decoration: none;
     color: #829985;
-    transition: color .5s;
+    transition: color 0.5s;
 }
-
-
+.section_item a:hover {
+    color: #1f0e0e;
+}
 
 
