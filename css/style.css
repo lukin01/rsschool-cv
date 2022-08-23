@@ -33,12 +33,14 @@ body {
     padding: 0;
     min-width: 320px;
     min-height: 100vh;
+    background-color: #e5e3e4a1 ;
 
 }
 header {
     border: 1 solid red;
     display: block; 
-    background-color: #829985;
+    background-color: #469697cc;
+
 }
 main {
     border: 1 solid red;
@@ -64,12 +66,13 @@ footer {
     font-weight: 300;
     padding: 0 12px;
     line-height: 50px;
-    transition: .4s;
+    transition: .6s;
     color: #ffffff;
     text-decoration: none;  
 }
 .nav_link:hover{
     background-color: rgba(25, 37, 27, 0.555);
+    border-radius: 7px;
 }
 
 /* Main */
@@ -101,7 +104,7 @@ footer {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 5px;
-    color: #829985;
+    color: #464850;
 }
 .main_title {
     position: relative;
@@ -117,7 +120,7 @@ footer {
 .main_title::after {
     content: "";
     position: absolute;
-    background-color: #829985;
+    background-color: #464850;
     width: 140px;
     height: 2px;
     margin-left: -70px;
@@ -131,7 +134,7 @@ footer {
 }
 .section {
     width: 50%;
-    border-bottom: 1px solid #672f2f;
+    border-bottom: 1px solid #1f0e0e;
     padding: 10px;
     padding-bottom: 35px;
 }
@@ -156,7 +159,7 @@ footer {
 }
 .section_item a {
     text-decoration: none;
-    color: #829985;
+    color: #40746d;
     transition: color 0.5s;
 }
 .section_item a:hover {
@@ -174,7 +177,7 @@ footer {
     background-size: 14px 14px;
 }
 .section_item span {
-    color: #829985;
+    color: #40746d;
 }
 .pre {
     padding: 0;
@@ -188,7 +191,7 @@ footer {
 }
 /* Footer */
 .footer {
-    background-color: #829985;
+    background-color: #ddbeaa65;
     padding: 20px;
 }
 .footer_container {
@@ -196,17 +199,29 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: #fff;
+    color: #000;
 }
 .github {
-    color: #fff;
-    text-decoration: none;
-    line-height: 45px;
+    background-image: url(/assets/svg/github_logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
 }
 .rss {
-    width: 121px;
+    width: 101px;
     height: 45px;
     background-image: url(/assets/svg/logo_rs_school_js.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+.footer_link {
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 12px;
+    line-height: 50px;
+    transition: .4s;
+    color: #ffffff;
+    text-decoration: none; 
 }
