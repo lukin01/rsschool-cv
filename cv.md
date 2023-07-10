@@ -18,3 +18,24 @@ I am currently working as a QA engineer. Always liked the IT sphere. Currently i
 *   Version control: Git
 *   Figma
 *   SQL(Basic knowledge)
+
+## Code Example
+```
+function reverseWords(str) {
+    return str.split(' ').map(function(word){
+        return word.split('').reverse().join('');
+    }).join(' ');
+}
+```
+
+## Experience
+*   **Manual QA - Roasup inc.** 2021-Now
+    + Functional testing, make a test documentation, regression tests, help on grooming and work with development team. 
+
+## Education
+* Samara State Technical University 2015-2019 (Bacheleros degree)
+* RS School-Junior Front-end developer course
+
+## Languages
+1. Russian (Native)
+2. English (A2)
